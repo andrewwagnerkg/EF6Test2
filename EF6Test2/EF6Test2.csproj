@@ -71,6 +71,7 @@
     <Compile Include="Entities\BaseTransalatableRemoteEntity.cs" />
     <Compile Include="Entities\Material.cs" />
     <Compile Include="Entities\MaterialTranslation.cs" />
+    <Compile Include="Entities\Work.cs" />
     <Compile Include="Migrations\202312200736159_Init.cs" />
     <Compile Include="Migrations\202312200736159_Init.designer.cs">
       <DependentUpon>202312200736159_Init.cs</DependentUpon>

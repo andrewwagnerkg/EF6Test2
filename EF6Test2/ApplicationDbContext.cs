@@ -20,6 +20,8 @@ namespace EF6Test2
         public DbSet<Material> Materials { get; set; }
 
         public DbSet<MaterialTranslation> MaterialTranslations { get; set; }
+
+        public DbSet<Work> Works { get; set; }
     }
 
     public sealed class AddDbInitializer : DropCreateDatabaseAlways<ApplicationDbContext>
