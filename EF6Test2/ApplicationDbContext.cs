@@ -9,7 +9,6 @@ namespace EF6Test2
         static ApplicationDbContext()
         {
             Database.SetInitializer(new AddDbInitializer());
-
         }
 
         public ApplicationDbContext() : base("sqlite")
@@ -30,11 +29,6 @@ namespace EF6Test2
         {
             var migrator = new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>(true);
             migrator.InitializeDatabase(context);
-        }
-
-        protected override void Seed(ApplicationDbContext context)
-        {
-            //base.Seed(context);
         }
     }
 }
